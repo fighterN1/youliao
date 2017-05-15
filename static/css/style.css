@@ -1,0 +1,12 @@
+#com-nav{position: fixed;bottom:0;width:100%;padding:5px;background:#ddd;}
+.nav-main ul{
+    display:-moz-box;
+    display:-webkit-box;
+    display:box;
+}
+.nav-main li{ 
+	-moz-box-flex:1;
+    -webkit-box-flex:1;
+    box-flex:1;
+    text-align: center;
+}
